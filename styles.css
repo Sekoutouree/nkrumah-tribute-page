@@ -1,0 +1,26 @@
+html {
+    font-size: 15px;
+    background-image: linear-gradient(to bottom, grey, white);
+}
+
+body {
+    font-family: 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.8;
+    /* text-align: center; */
+    color: rgb(15, 15, 15);
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
